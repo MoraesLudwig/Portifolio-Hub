@@ -11,7 +11,7 @@
 
 [![Landing Page](https://img.shields.io/badge/%F0%9F%8C%90_Landing_Page-b4204a?style=for-the-badge)](https://moraesludwig.github.io/githubpage)
 [![Portfólio](https://img.shields.io/badge/%F0%9F%92%BC_Portf%C3%B3lio-9d0d2f?style=for-the-badge)](https://analytics-crafted-profile.lovable.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://moraesludwig.github.io/githubpage/www.linkedin.com/in/gabrielamoraesludwig)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/gabrielamoraesludwig)
 
 </div>
 
@@ -99,7 +99,7 @@ Ela reúne uma breve apresentação e direciona para o portfólio completo, onde
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielamldev@gmail.com)
 [![Outlook](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:gabrielamoraes2022@outlook.pt)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://analytics-crafted-profile.lovable.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/gabrielamoraesludwig)
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-e87d87?style=for-the-badge&logoColor=white)](https://analytics-crafted-profile.lovable.app/)
 
 <div align="center">
