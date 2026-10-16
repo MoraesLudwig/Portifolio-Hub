@@ -11,7 +11,7 @@
 
 [![Landing Page](https://img.shields.io/badge/%F0%9F%8C%90_Landing_Page-b4204a?style=for-the-badge)](https://moraesludwig.github.io/githubpage)
 [![Portfólio](https://img.shields.io/badge/%F0%9F%92%BC_Portf%C3%B3lio-9d0d2f?style=for-the-badge)](https://analytics-crafted-profile.lovable.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/gabrielamoraesludwig)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielamoraesludwig)
 
 </div>
 
