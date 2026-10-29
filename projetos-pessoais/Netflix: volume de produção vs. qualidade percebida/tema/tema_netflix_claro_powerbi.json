@@ -1,0 +1,139 @@
+{
+  "name": "Netflix Light",
+  "dataColors": [
+    "#E50914",
+    "#5B8DB8",
+    "#C9B79C",
+    "#46D369",
+    "#F5A623",
+    "#B20710",
+    "#F6575F",
+    "#8C8C8C"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#141414",
+  "tableAccent": "#E50914",
+  "good": "#46D369",
+  "neutral": "#F5A623",
+  "bad": "#E50914",
+  "maximum": "#46D369",
+  "center": "#F5A623",
+  "minimum": "#E50914",
+  "null": "#8C8C8C",
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#141414"
+    },
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#141414"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#141414"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#6B6B6B"
+    }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F5F5F1" } },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": { "solid": { "color": "#F5F5F1" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "*": {
+      "*": {
+        "*": [
+          {
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E3E3DD" } },
+            "radius": 6
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#141414" } },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#6B6B6B" } },
+            "titleColor": { "solid": { "color": "#6B6B6B" } },
+            "gridlineColor": { "solid": { "color": "#E3E3DD" } }
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": { "solid": { "color": "#6B6B6B" } },
+            "titleColor": { "solid": { "color": "#6B6B6B" } },
+            "gridlineColor": { "solid": { "color": "#E3E3DD" } }
+          }
+        ],
+        "legend": [
+          {
+            "labelColor": { "solid": { "color": "#6B6B6B" } },
+            "titleColor": { "solid": { "color": "#6B6B6B" } }
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": { "solid": { "color": "#FFFFFF" } },
+            "foregroundColor": { "solid": { "color": "#141414" } },
+            "transparency": 0,
+            "border": true,
+            "borderColor": { "solid": { "color": "#E3E3DD" } }
+          }
+        ],
+        "filterCard": [
+          {
+            "$id": "Applied",
+            "transparency": 0,
+            "backgroundColor": { "solid": { "color": "#F5F5F1" } },
+            "foregroundColor": { "solid": { "color": "#141414" } },
+            "border": true
+          },
+          {
+            "$id": "Available",
+            "transparency": 0,
+            "backgroundColor": { "solid": { "color": "#FFFFFF" } },
+            "foregroundColor": { "solid": { "color": "#141414" } },
+            "border": true
+          }
+        ]
+      }
+    }
+  }
+}
