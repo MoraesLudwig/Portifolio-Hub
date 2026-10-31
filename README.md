@@ -55,7 +55,7 @@ Gosto de transformar dados em informações claras e úteis para apoiar decisõe
 
 ## 📁 Estrutura do repositório
 
-Este repositório é a minha vitrine: além da landing page, vou reunir aqui **trabalhos da faculdade** e **projetos pessoais**, organizados por pastas.
+Este repositório é a minha vitrine: além da landing page, vou reunir aqui **trabalhos da faculdade**,  **projetos pessoais** e **desafios realizados no estágio**, organizados por pastas.
 
 ```text
 githubpage/
@@ -75,16 +75,20 @@ githubpage/
 │       ├── seguranca-digital/  # Segurança Digital
 │       └── bootcamp-i/         # Bootcamp I
 │
+├── desafios-estagio/           # 💼 Desafios de análise de dados do estágio
+│   └── (uma pasta por desafio, com seu próprio README)
+│
 └── projetos-pessoais/          # 🚀 Projetos feitos por conta própria
     └── (uma pasta por projeto, com seu próprio README)
 ```
-
+ 
 | Pasta | O que vai ter lá |
 |---|---|
 | 🌐 **Raiz** | Arquivos da landing page (`index.html` e `foto.jpg` precisam ficar aqui para o GitHub Pages funcionar) |
 | 🎓 **faculdade/** | Trabalhos das disciplinas do curso, com uma pasta para cada um dos 8 semestres. No 8º semestre ficam as disciplinas **Segurança Digital** e **Bootcamp I** |
+| 💼 **desafios-estagio/** | Desafios de análise de dados que resolvo no estágio, como dashboards em Power BI, extração e tratamento de dados e métricas (sem informações confidenciais) |
 | 🚀 **projetos-pessoais/** | Análises de dados, dashboards e experimentos que faço para estudar e para o portfólio |
-
+ 
 > 💡 **Dica de organização:** cada trabalho ou projeto ganha uma pasta própria, com um `README.md` explicando o objetivo, as ferramentas usadas e como reproduzir.
 
 ## 🌐 Landing page
