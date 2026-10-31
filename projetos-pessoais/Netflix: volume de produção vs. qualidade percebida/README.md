@@ -4,7 +4,8 @@ Análise do catálogo da Netflix com **Python** (tratamento) e **Power BI** (das
 
 > **A Netflix concentra seu catálogo nos gêneros e países que realmente performam bem com o público, ou existe um descompasso entre volume de produção e qualidade percebida?**
 
-![Capa do dashboard](docs/img/capa.png)
+<img width="1321" height="741" alt="image" src="https://github.com/user-attachments/assets/6e576657-3071-4c01-8c9d-5c6899b65067" />
+
 
 ---
 
@@ -32,10 +33,11 @@ Nota média geral da base: **6,51** (IMDb, 0 a 10).
 | **3. Países** | Quais países produzem mais e quais produzem melhor? (dispersão, Top 10 por nota, tabela com índice de eficiência) |
 | **4. Storytelling** | Qual a história que os dados contam e o que recomendar? (4 insights, recomendação e limitações) |
 
-![Página 1](docs/img/pagina1.png)
-![Página 2](docs/img/pagina2.png)
-![Página 3](docs/img/pagina3.png)
-![Página 4](docs/img/pagina4.png)
+<img width="1322" height="742" alt="image" src="https://github.com/user-attachments/assets/98a0c2d9-012b-483c-ba55-27b8bdc1e1f2" />
+<img width="1327" height="742" alt="image" src="https://github.com/user-attachments/assets/8f6f4410-3a98-46ed-80b5-5515fb00deff" />
+<img width="1325" height="742" alt="image" src="https://github.com/user-attachments/assets/8e26a6fc-ec6b-4391-b469-ac925fa6b14e" />
+<img width="1326" height="740" alt="image" src="https://github.com/user-attachments/assets/3cf398b8-fa03-4f69-bc8c-6127b88a388d" />
+
 
 ---
 
