@@ -1,99 +1,92 @@
-# Análise de Engajamento e Métrica de Aprendizado de um Portal de Conteúdo
+<div align="center">
 
-Projeto de análise de dados para definir e medir a *North Star Metric* de um portal de conteúdo educacional: **quantas pessoas realmente aprendem com o conteúdo a cada semana** (*Weekly Active Learners*, WAL).
+<img src="https://capsule-render.vercel.app/api?type=waving&color=9d0d2f&height=160&section=header&text=Desafios%20do%20Est%C3%A1gio&fontSize=44&fontColor=eca59d&animation=fadeIn&fontAlignY=38&desc=An%C3%A1lise%20de%20dados%20na%20pr%C3%A1tica&descSize=18&descColor=e87d87&descAlignY=60" alt="Cabeçalho" />
 
-> **Aviso sobre os dados:** este projeto foi anonimizado. Todos os números, temas, nomes e URLs de páginas exibidos nas imagens do dashboard são **fictícios**, gerados aleatoriamente. Por questões de confidencialidade, não é possível divulgar dados da empresa, e nenhum valor ou conteúdo aqui representa um portal real.
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-9d0d2f?style=for-the-badge&logo=powerbi&logoColor=white)
+![Google Analytics](https://img.shields.io/badge/Google_Analytics-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Scrum](https://img.shields.io/badge/Scrum-b4204a?style=for-the-badge)
 
----
+[⬅️ Voltar ao README principal](../README.md)
 
-## Visão geral do dashboard
-
-![Capa do dashboard](images/capa-dashboard.png)
-
----
-
-## Design no Figma
-
-O layout do dashboard foi prototipado no Figma antes da implementação no Power BI.
-
-**[Ver o design no Figma](COLE-AQUI-O-LINK-DO-FIGMA)**
-
-![Protótipo no Figma](images/figma-prototipo.png)
+</div>
 
 ---
 
-## Desafio
+## 💼 Sobre esta pasta
 
-Aprendizado não pode ser medido diretamente. Foi preciso traduzi-lo em comportamentos observáveis usando apenas métricas já disponíveis no Google Analytics 4, sem desenvolvimento adicional.
+Aqui reúno os **desafios de análise de dados** que resolvo no meu estágio na área de tecnologia, como:
 
-**Definição adotada de *Weekly Active Learner*:** usuário que, dentro de uma semana, visualizou pelo menos 2 páginas de conteúdo e teve tempo médio de engajamento superior a 2 minutos.
+- 📊 criação de **dashboards em Power BI**
+- 🗄️ **extração e tratamento** de dados
+- 📈 configuração e acompanhamento de **métricas** (Google Analytics)
+- 🔄 trabalho em equipe com **metodologias ágeis (Scrum)**
 
-**Learning Rate:** WAL ÷ usuários ativos, ou seja, o percentual de visitantes com comportamento compatível com aprendizado.
+O objetivo é mostrar **como penso e como resolvo problemas reais**, e não apenas o resultado final.
 
----
+## ⚠️ Aviso sobre confidencialidade
 
-## Páginas do dashboard
+Nenhum dado interno, sensível ou confidencial é publicado aqui. Os desafios são apresentados com **dados fictícios ou anonimizados** e com **descrições gerais**, sem identificar sistemas, pessoas ou números reais da instituição.
 
-> Os números, temas e URLs que aparecem nas imagens abaixo são fictícios.
+## 🗂️ Organização
 
-### 1. Visão geral
-![Visão geral](images/pagina-1-visao-geral.png)
+```text
+desafios-estagio/
+├── desafio-01-nome-do-desafio/
+│   └── README.md
+├── desafio-02-nome-do-desafio/
+│   └── README.md
+└── ...
+```
 
-KPIs principais, evolução semanal do WAL e do Learning Rate e usuários ativos.
+Cada desafio ganha **uma pasta própria**, numerada na ordem em que foi feito.
 
-### 2. Comportamento e conteúdo
-![Comportamento e conteúdo](images/pagina-2-comportamento-conteudo.png)
+## 🧩 Desafios
 
-Usuários novos vs. recorrentes, páginas por usuário e WAL por página.
+| # | Desafio | Ferramentas | Status |
+|---|---|---|---|
+| 01 | _a preencher_ | _a preencher_ | ⏳ |
 
-### 3. Canais e aquisição
-![Canais e aquisição](images/pagina-3-canais-aquisicao.png)
+> **Legenda:** ⏳ a organizar · 🚧 em andamento · ✅ concluído
 
-Origem dos usuários, tempo médio e taxa de engajamento por canal.
+## 📝 Modelo de README para cada desafio
 
-### 4. Temas e detalhe por página
-![Temas e detalhe por página](images/pagina-4-temas-detalhe.png)
+```markdown
+# Nome do desafio
 
-Engajamento por tema e tabela de auditoria com os indicadores de cada página e a indicação de quais atendem ao critério de WAL.
+## Contexto
+Situação geral que originou o desafio (sem dados sigilosos).
 
----
+## Pergunta de negócio
+O que precisava ser respondido ou acompanhado.
 
-## O que foi feito
-
-- Extração e consolidação de 8 semanas de dados de aquisição de tráfego e de páginas e telas.
-- Modelagem no Power BI, com tabela de semanas, relacionamentos e medidas DAX: WAL, Learning Rate, usuários novos e recorrentes, páginas por usuário e por sessão e tempo médio de engajamento.
-- Criação de coluna de tema a partir da estrutura das URLs, para analisar o engajamento por assunto.
-- Dashboard em quatro páginas, com *slicers* por semana, tema e canal.
-- Resumo executivo de uma página com conclusões e recomendações.
-
----
-
-## Validação e qualidade dos dados
-
-Todas as medidas foram recalculadas em **Python (pandas)** e comparadas com os resultados do Power BI. A validação revelou e corrigiu erros de modelagem, como:
-
-- somas de percentuais no lugar de médias ponderadas;
-- denominadores que ignoravam o filtro de semana;
-- referência a uma coluna que não existia nos dados;
-- medidas que misturavam tabelas sem relacionamento;
-- decimais importados com a localidade errada, que faziam o critério do WAL aprovar todas as linhas.
-
-Limitações documentadas: dupla contagem de usuários entre páginas e entre semanas, o que torna o WAL uma estimativa (*proxy*).
-
----
-
-## Insights gerados
-
-- Evolução semanal da métrica e do Learning Rate, com identificação de picos e análise de possíveis causas.
-- Conteúdos e temas que mais engajam e canais que trazem usuários mais qualificados.
-- Oportunidades de melhoria na navegação e na descoberta de conteúdo.
-
----
+## Dados
+Tipo de dados usados e como foram anonimizados.
 
 ## Ferramentas
+Power BI, DAX, Python, SQL, Google Analytics...
 
-`Google Analytics 4` · `Power BI` · `DAX` · `Python (pandas)` · `Figma` · `Excel/CSV`
+## Passos da solução
+1. Extração e tratamento
+2. Modelagem
+3. Medidas e visualizações
 
-## Competências demonstradas
+## Resultado
+Prints do dashboard (com dados fictícios) e principais insights.
 
-Definição de métricas de produto · Modelagem de dados · DAX avançado · Validação e auditoria de números · Design de dashboards · Visualização de dados · Comunicação executiva
+## Aprendizados
+O que aprendi e o que faria diferente.
+```
+
+## 🔗 Links
+
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-e87d87?style=for-the-badge)](https://SEU-PROJETO.lovable.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielamoraesludwig)
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=9d0d2f&height=80&section=footer" alt="Rodapé" />
+
+</div>
